@@ -1,0 +1,23 @@
+.icon {
+    display: inline-block;
+    font-size: 0;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-size: 100% 100%;
+}
+
+.icon:not(.icon-abs) {
+    position: relative;
+}
+
+.icon-abs {
+    position: absolute;
+}
+
+
+/*.icon-like-not {
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/icons/like-not.svg");
+}*/
