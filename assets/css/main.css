@@ -1,3 +1,13 @@
+.header .headline {
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 1023px) {
+    .header .headline {
+        min-height: auto;
+    }
+}
+
 .midnightHeader.white-section .brand-img svg path {
     fill: black !important;
 }
